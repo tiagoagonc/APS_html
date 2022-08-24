@@ -5,13 +5,13 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'app_aps/home.html', context={
+    return render(request, 'recipes/home.html', context={
         'name': 'Tiago Gonçalves',
     })
 
 
 def contato(request):
-    return render(request, 'app_aps/contato.html')
+    return render(request, 'recipes/contato.html')
 
 
 def sobre(request):
