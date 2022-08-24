@@ -5,7 +5,9 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'app_aps/home.html', context={
+        'name': 'Tiago Gonçalves',
+    })
 
 
 def contato(request):
