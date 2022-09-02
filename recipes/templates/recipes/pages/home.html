@@ -1,17 +1,10 @@
 {% include 'recipes/partials/head.html' %}
 
 <body>
-    <header class="main-header-container">
-        <div class="main-header container">
-            <h1>
-                <a class="main-logo" href="/recipes">
-                    <i class="fas fa-utensils main-logo-icon"></i>
-                    <!-- <i class="fas fa-address-book"></i> -->
-                    <span class="main-logo-text">Recipes</span>
-                </a>
-            </h1>
-        </div>
-    </header>
+    {% include 'recipes/partials/header.html' %}
+
+    {% include 'recipes/partials/search.html' %}
+
 
 </body>
 
